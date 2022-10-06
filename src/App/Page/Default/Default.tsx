@@ -1,10 +1,10 @@
-import { Root, Title } from './Default.styles'
+import { Flex, Text } from '@chakra-ui/react'
 
 export const Default = () => {
   return (
-    <Root>
-      <Title>Student Management System</Title>
-    </Root>
+    <Flex width="100%" height="100%" alignItems="center" justifyContent="center">
+      <Text>Student Management System</Text>
+    </Flex>
   )
 }
 
